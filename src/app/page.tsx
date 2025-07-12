@@ -8,8 +8,8 @@ import Contact from '@/components/Contact'
 import { movingServiceSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Dutamover - Jasa Pindahan Terpercaya & Profesional Jakarta',
-  description: 'Jasa pindahan terpercaya #1 di Jakarta dengan pengalaman 10+ tahun. Layanan pindahan rumah, kantor, packing profesional. Gratis survey! ☎️ 0815-1032-6123',
+  title: 'Dutamover - Jasa Pindahan Terpercaya & Profesional',
+  description: 'Jasa pindahan terpercaya #1 dengan pengalaman 10+ tahun. Layanan pindahan rumah, kantor, packing profesional. Gratis survey! ☎️ 0815-1032-6123',
   keywords: [
     'jasa pindahan jakarta',
     'jasa pindahan rumah jakarta',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     'jasa pindahan bogor'
   ],
   openGraph: {
-    title: 'Dutamover - Jasa Pindahan Terpercaya #1 Jakarta',
+    title: 'Dutamover - Jasa Pindahan Terpercaya #1',
     description: 'Jasa pindahan profesional dengan pengalaman 10+ tahun. Layanan pindahan rumah, kantor, packing. Gratis survey & konsultasi!',
     url: 'https://www.dutamover.com',
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         url: '/images/dutamover-moving-service.jpg',
         width: 1200,
         height: 630,
-        alt: 'Dutamover - Jasa Pindahan Profesional Jakarta',
+        alt: 'Dutamover - Jasa Pindahan Profesional',
       },
     ],
   },

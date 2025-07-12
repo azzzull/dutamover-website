@@ -106,7 +106,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         
         {/* Analytics & Tracking */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=158759676"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `

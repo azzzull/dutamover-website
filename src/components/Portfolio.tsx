@@ -32,7 +32,7 @@ const portfolioItems = [
     title: 'Proses Packing Kasur',
     description: 'Proses ini dilakukan untuk memberi proteksi terhadap kasur serta menjaga agar kasur tetap bersih',
     category: 'packing',
-    image: '/images/Dutam37.jpg'
+    image: '/images/dutam37.jpg'
   },
   {
     id: 4,
