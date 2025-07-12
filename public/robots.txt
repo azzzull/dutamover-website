@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Host
+Host: https://www.dutamover.com
+
+# Sitemaps
+Sitemap: https://www.dutamover.com/sitemap.xml
