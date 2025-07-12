@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Tentang Dutamover - Jasa Pindahan Profesional Jakarta',
-  description: 'Dutamover adalah perusahaan jasa pindahan terpercaya dengan pengalaman 10+ tahun di Jakarta. Tim profesional, layanan lengkap, dan kepuasan pelanggan adalah prioritas utama kami.',
+  title: 'Tentang Dutamover - Jasa Pindahan Profesional',
+  description: 'Dutamover adalah perusahaan jasa pindahan terpercaya dengan pengalaman 10+ tahun. Tim profesional, layanan lengkap, dan kepuasan pelanggan adalah prioritas utama kami.',
   keywords: ['tentang dutamover', 'sejarah perusahaan pindahan', 'visi misi dutamover', 'tim profesional pindahan'],
   openGraph: {
-    title: 'Tentang Dutamover - Jasa Pindahan Profesional Jakarta',
-    description: 'Mengenal lebih dekat Dutamover, perusahaan jasa pindahan terpercaya dengan pengalaman 10+ tahun di Jakarta.',
+    title: 'Tentang Dutamover - Jasa Pindahan Profesional',
+    description: 'Mengenal lebih dekat Dutamover, perusahaan jasa pindahan terpercaya dengan pengalaman 10+ tahun.',
   },
 }
 
@@ -20,7 +20,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Dengan pengalaman lebih dari 10 tahun, Dutamover telah menjadi pilihan utama 
-            untuk layanan pindahan profesional di Jakarta dan sekitarnya.
+            untuk layanan pindahan profesional.
           </p>
         </div>
 

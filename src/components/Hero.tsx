@@ -35,7 +35,7 @@ export default function Hero() {
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
             >
               Jasa <span className="text-lime-400">Pindahan</span>{' '}
-              Terpercaya Jakarta
+              Terpercaya
             </motion.h1>
             
             <motion.p
@@ -44,7 +44,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-lg sm:text-xl text-green-100 mb-8 leading-relaxed"
             >
-              <strong>Dutamover</strong> adalah jasa pindahan rumah dan kantor terpercaya #1 di Jakarta. 
+              <strong>Dutamover</strong> adalah jasa pindahan rumah dan kantor terpercaya. 
               Dengan pengalaman 10+ tahun, tim profesional, dan layanan asuransi lengkap - 
               kami memudahkan pindahan Anda dengan aman dan efisien.
             </motion.p>
