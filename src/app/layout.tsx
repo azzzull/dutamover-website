@@ -12,10 +12,10 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dutamover - Jasa Pindahan Terpercaya & Profesional Jakarta",
+    default: "Dutamover - Jasa Pindahan Terpercaya",
     template: "%s | Dutamover"
   },
-  description: "Dutamover adalah jasa pindahan terpercaya di Jakarta dengan pengalaman 10+ tahun. Layanan pindahan rumah, kantor, dan packing profesional. Hubungi 0815-1032-6123",
+  description: "Jasa pindahan rumah & kantor profesional. Berpengalaman 10+ tahun, aman, cepat, harga kompetitif. Call 0815-1032-6123",
   keywords: [
     "jasa pindahan jakarta",
     "jasa pindahan rumah",
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Dutamover - Jasa Pindahan Terpercaya & Profesional Jakarta",
-    description: "Dutamover adalah jasa pindahan terpercaya di Jakarta dengan pengalaman 10+ tahun. Layanan pindahan rumah, kantor, dan packing profesional.",
+    title: "Dutamover - Jasa Pindahan Terpercaya",
+    description: "Jasa pindahan rumah & kantor profesional. Berpengalaman 10+ tahun, aman, cepat, harga kompetitif.",
     url: "https://www.dutamover.com",
     siteName: "Dutamover",
     images: [
@@ -58,8 +58,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dutamover - Jasa Pindahan Terpercaya & Profesional Jakarta",
-    description: "Dutamover adalah jasa pindahan terpercaya di Jakarta dengan pengalaman 10+ tahun. Layanan pindahan rumah, kantor, dan packing profesional.",
+    title: "Dutamover - Jasa Pindahan Terpercaya",
+    description: "Jasa pindahan rumah & kantor profesional. Berpengalaman 10+ tahun, aman, cepat, harga kompetitif.",
     images: ["/images/og-image.jpg"],
   },
   robots: {

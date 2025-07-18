@@ -144,6 +144,8 @@ export default function Portfolio() {
                   src={item.image}
                   alt={`${item.title} - Proses kerja profesional Dutamover jasa pindahan Jakarta`}
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={300}
                   loading="lazy"
                   onError={(e) => {
                     // Fallback to icon if image fails to load
@@ -234,7 +236,7 @@ export default function Portfolio() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/galeri"
+                href="/gallery"
                 className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-green-600 font-semibold px-8 py-3 rounded-lg transition-colors"
               >
                 Lihat Galeri Lengkap
