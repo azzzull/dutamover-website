@@ -30,10 +30,13 @@ export default function Header() {
             <Image
               src="/images/dutamover-logo.png"
               alt="Dutamover Logo"
-              width={120}
-              height={30}
-              className="h-8 sm:h-10 w-auto max-w-full"
+              width={160}
+              height={40}
+              className="h-8 sm:h-10 w-auto max-w-full object-contain"
               priority
+              quality={100}
+              unoptimized={true}
+              sizes="(max-width: 640px) 120px, 160px"
             />
           </Link>
         </div>
@@ -92,8 +95,6 @@ export default function Header() {
                 <Image
                   src="/images/dutamover-logo.png"
                   alt="Dutamover Logo"
-                  width={120}
-                  height={30}
                   className="h-8 w-auto max-w-full"
                   priority
                 />
