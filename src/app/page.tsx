@@ -8,8 +8,11 @@ import Contact from '@/components/Contact'
 import { movingServiceSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Dutamover - Jasa Pindahan Terpercaya & Profesional',
-  description: 'Jasa pindahan terpercaya #1 dengan pengalaman 10+ tahun. Layanan pindahan rumah, kantor, packing profesional. Gratis survey! ☎️ 0815-1032-6123',
+  title: 'Dutamover - Jasa Pindahan Terpercaya',
+  description: 'Jasa pindahan rumah & kantor terpercaya. Pengalaman 10+ tahun, tim profesional, harga kompetitif. Call 0815-1032-6123',
+  alternates: {
+    canonical: '/',
+  },
   keywords: [
     'jasa pindahan jakarta',
     'jasa pindahan rumah jakarta',

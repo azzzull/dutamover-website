@@ -119,12 +119,16 @@ export default function Services() {
                         src="/images/dutam53.jpg"
                         alt="Jasa Pindahan Dutamover"
                         className="w-full h-full object-cover"
+                        width={400}
+                        height={300}
                       />
                     ) : service.id === 2 ? (
                       <img
                         src="/images/dutamover-packing.jpg"
                         alt="Jasa Packing Dutamover"
                         className="w-full h-full object-cover"
+                        width={400}
+                        height={300}
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">

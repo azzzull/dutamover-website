@@ -4,12 +4,15 @@ import { FaTruck, FaBoxOpen, FaShieldAlt } from 'react-icons/fa'
 import { breadcrumbSchemaLayanan, movingServiceSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Layanan Jasa Pindahan Profesional Jakarta - Dutamover',
-  description: 'Layanan lengkap jasa pindahan Dutamover: pindahan rumah, kantor, dan packing profesional. Gratis survey dan konsultasi. Hubungi 0815-1032-6123',
+  title: 'Layanan Pindahan - Dutamover',
+  description: 'Layanan jasa pindahan Dutamover: rumah, kantor, packing profesional. Gratis survey! Call 0815-1032-6123',
   keywords: ['jasa pindahan rumah', 'jasa pindahan kantor', 'jasa packing', 'layanan pindahan jakarta'],
+  alternates: {
+    canonical: '/layanan',
+  },
   openGraph: {
-    title: 'Layanan Jasa Pindahan Profesional Jakarta - Dutamover',
-    description: 'Layanan lengkap jasa pindahan: rumah, kantor, dan packing. Tim profesional, asuransi, dan harga terjangkau.',
+    title: 'Layanan Pindahan - Dutamover',
+    description: 'Layanan jasa pindahan: rumah, kantor, packing profesional. Tim berpengalaman, asuransi, harga terjangkau.',
   },
 }
 
@@ -138,12 +141,16 @@ export default function LayananPage() {
                           src="/images/dutam53.jpg"
                           alt="Jasa Pindahan Dutamover"
                           className="w-full h-full object-cover"
+                          width={400}
+                          height={300}
                         />
                       ) : service.id === 'packing' ? (
                         <img
                           src="/images/dutamover-packing.jpg"
                           alt="Jasa Packing Dutamover"
                           className="w-full h-full object-cover"
+                          width={400}
+                          height={300}
                         />
                       ) : (
                         <div className="w-full h-full bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">
@@ -250,12 +257,16 @@ export default function LayananPage() {
                             src="/images/dutam53.jpg"
                             alt="Jasa Pindahan Dutamover"
                             className="w-full h-full object-cover"
+                            width={400}
+                            height={300}
                           />
                         ) : service.id === 'packing' ? (
                           <img
                             src="/images/dutamover-packing.jpg"
                             alt="Jasa Packing Dutamover"
                             className="w-full h-full object-cover"
+                            width={400}
+                            height={300}
                           />
                         ) : (
                           <div className="w-full h-full bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: 'Tentang Dutamover - Jasa Pindahan Terpercaya',
   description: 'Dutamover perusahaan pindahan terpercaya 10+ tahun. Tim profesional, layanan lengkap untuk kepuasan pelanggan.',
   keywords: ['tentang dutamover', 'sejarah perusahaan pindahan', 'visi misi dutamover', 'tim profesional pindahan'],
+  alternates: {
+    canonical: '/about',
+  },
   openGraph: {
     title: 'Tentang Dutamover - Jasa Pindahan',
     description: 'Dutamover perusahaan pindahan terpercaya 10+ tahun. Tim profesional, layanan lengkap untuk kepuasan pelanggan.',

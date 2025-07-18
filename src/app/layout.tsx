@@ -37,9 +37,6 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL("https://www.dutamover.com"),
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     title: "Dutamover - Jasa Pindahan Terpercaya",
     description: "Jasa pindahan rumah & kantor profesional. Berpengalaman 10+ tahun, aman, cepat, harga kompetitif.",
