@@ -3,6 +3,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Privacy Policy - Dutamover',
   description: 'Kebijakan privasi Dutamover mengenai pengumpulan, penggunaan, dan perlindungan data pribadi pelanggan.',
+  alternates: {
+    canonical: '/privacy',
+  },
   robots: 'index, follow',
 }
 

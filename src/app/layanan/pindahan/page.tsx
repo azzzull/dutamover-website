@@ -3,11 +3,14 @@ import Link from 'next/link'
 import { FaTruck, FaShieldAlt, FaClock, FaUsers, FaCheckCircle, FaWhatsapp, FaPhone } from 'react-icons/fa'
 
 export const metadata: Metadata = {
-  title: 'Jasa Pindahan Rumah & Kantor Profesional - Dutamover',
+  title: 'Jasa Pindahan Rumah & Kantor - Dutamover',
   description: 'Layanan jasa pindahan rumah dan kantor terpercaya dengan tim profesional berpengalaman. Gratis survey, asuransi barang, dan harga terjangkau. Hubungi 0815-1032-6123',
   keywords: ['jasa pindahan rumah', 'jasa pindahan kantor', 'pindahan jakarta', 'pindahan bogor', 'pindahan tangerang'],
+  alternates: {
+    canonical: '/layanan/pindahan',
+  },
   openGraph: {
-    title: 'Jasa Pindahan Rumah & Kantor Profesional - Dutamover',
+    title: 'Jasa Pindahan Rumah & Kantor - Dutamover',
     description: 'Layanan pindahan terpercaya dengan tim profesional. Gratis survey, asuransi barang, dan harga terjangkau.',
   },
 }

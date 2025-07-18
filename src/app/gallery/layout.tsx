@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Galeri - Dutamover.com | Dokumentasi Proyek Jasa Pindahan Terpercaya',
+  title: 'Galeri Foto Pindahan - Dutamover',
   description: 'Lihat galeri foto dan video proyek pindahan rumah, kantor, dan kost yang telah ditangani oleh Dutamover.com. Dokumentasi lengkap hasil kerja profesional kami.',
   keywords: [
     'galeri dutamover',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'galeri jasa pindah jakarta'
   ],
   openGraph: {
-    title: 'Galeri - Dutamover.com | Dokumentasi Proyek Jasa Pindahan',
+    title: 'Galeri Foto Pindahan - Dutamover',
     description: 'Dokumentasi lengkap proyek pindahan rumah, kantor, dan kost yang telah ditangani secara profesional.',
     url: 'https://www.dutamover.com/gallery',
     siteName: 'Dutamover.com',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ['/images/gallery-twitter.jpg']
   },
   alternates: {
-    canonical: 'https://www.dutamover.com/gallery'
+    canonical: '/gallery'
   }
 }
 

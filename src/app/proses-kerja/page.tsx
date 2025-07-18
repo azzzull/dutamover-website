@@ -4,11 +4,14 @@ import { FaSearchLocation, FaBoxOpen, FaTruck, FaHome, FaWhatsapp, FaPhone } fro
 import { workProcessSchema, organizationSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Proses Kerja Jasa Pindahan Profesional - Dutamover',
+  title: 'Proses Kerja Jasa Pindahan - Dutamover',
   description: 'Pelajari proses kerja sistematis Dutamover: Survey, Packing, Pemindahan, dan Penyusunan Kembali. Metode terpercaya dengan standar internasional.',
   keywords: ['proses kerja pindahan', 'tahapan pindahan', 'survey pindahan', 'packing profesional', 'cara kerja dutamover'],
+  alternates: {
+    canonical: '/proses-kerja',
+  },
   openGraph: {
-    title: 'Proses Kerja Jasa Pindahan Profesional - Dutamover',
+    title: 'Proses Kerja Jasa Pindahan - Dutamover',
     description: 'Proses kerja sistematis dan terstruktur untuk memastikan pindahan Anda berjalan lancar dan efisien.',
   },
 }

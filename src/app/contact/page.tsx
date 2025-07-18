@@ -3,12 +3,15 @@ import Contact from '@/components/Contact'
 import { breadcrumbSchemaContact, localBusinessSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Kontak Dutamover - Hubungi Jasa Pindahan Terpercaya Jakarta',
-  description: 'Hubungi Dutamover untuk konsultasi gratis jasa pindahan. Telepon 0815-1032-6123, WhatsApp 24/7. Kantor di Plaza Cordoba BSD Tangerang Selatan.',
-  keywords: ['kontak dutamover', 'telepon jasa pindahan', 'alamat kantor pindahan jakarta', 'whatsapp pindahan'],
+  title: 'Kontak Dutamover - Jasa Pindahan',
+  description: 'Hubungi Dutamover untuk konsultasi gratis jasa pindahan. Call 0815-1032-6123, WhatsApp 24/7. Kantor BSD Tangerang.',
+  keywords: ['kontak dutamover', 'telepon jasa pindahan', 'alamat kantor pindahan', 'whatsapp pindahan'],
+  alternates: {
+    canonical: '/contact',
+  },
   openGraph: {
-    title: 'Kontak Dutamover - Hubungi Jasa Pindahan Terpercaya Jakarta',
-    description: 'Hubungi Dutamover untuk konsultasi gratis. Telepon, WhatsApp, atau kunjungi kantor kami di BSD Tangerang.',
+    title: 'Kontak Dutamover - Jasa Pindahan',
+    description: 'Hubungi Dutamover untuk konsultasi gratis. Call 0815-1032-6123, WhatsApp 24/7, kantor BSD Tangerang.',
   },
 }
 

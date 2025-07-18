@@ -87,7 +87,6 @@ export default function RootLayout({
   return (
     <html lang="id">
       <head>
-        <link rel="canonical" href="https://www.dutamover.com" />
         <meta name="geo.region" content="ID-JK" />
         <meta name="geo.placename" content="Jakarta" />
         <meta name="geo.position" content="-6.2088;106.8456" />

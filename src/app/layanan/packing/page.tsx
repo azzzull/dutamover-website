@@ -3,11 +3,14 @@ import Link from 'next/link'
 import { FaBoxOpen, FaShieldAlt, FaClock, FaUsers, FaCheckCircle, FaWhatsapp, FaPhone } from 'react-icons/fa'
 
 export const metadata: Metadata = {
-  title: 'Jasa Packing Profesional & Aman - Dutamover',
+  title: 'Jasa Packing Profesional - Dutamover',
   description: 'Layanan jasa packing profesional dengan teknik terbaik dan bahan berkualitas tinggi. Khusus untuk barang fragile dan berharga. Hubungi 0815-1032-6123',
   keywords: ['jasa packing', 'packing profesional', 'packing barang fragile', 'packing furniture', 'packing elektronik'],
+  alternates: {
+    canonical: '/layanan/packing',
+  },
   openGraph: {
-    title: 'Jasa Packing Profesional & Aman - Dutamover',
+    title: 'Jasa Packing Profesional - Dutamover',
     description: 'Layanan packing terbaik dengan teknik profesional dan bahan berkualitas tinggi untuk melindungi barang berharga Anda.',
   },
 }

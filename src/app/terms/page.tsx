@@ -3,6 +3,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Syarat dan Ketentuan - Dutamover',
   description: 'Syarat dan ketentuan penggunaan layanan jasa pindahan Dutamover.',
+  alternates: {
+    canonical: '/terms',
+  },
   robots: 'index, follow',
 }
 
